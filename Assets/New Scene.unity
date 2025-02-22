@@ -1038,6 +1038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1045584401}
   - component: {fileID: 1045584400}
+  - component: {fileID: 1045584402}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Respawn
@@ -1074,6 +1075,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1045584402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045584399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce3eab7f3677af94bbf7f0e051aa5f65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolObjects: []
+  poolCount: 5
+  objectToPool: {fileID: 8200273940265750521, guid: 5f67a39b5f2e9b444a5213deae557578, type: 3}
 --- !u!1 &1081298684
 GameObject:
   m_ObjectHideFlags: 0
